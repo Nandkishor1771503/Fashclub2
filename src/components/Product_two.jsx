@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Second_data from "../Data/data2";
+import Second_data from "../Data/data2.js";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Product_two() {

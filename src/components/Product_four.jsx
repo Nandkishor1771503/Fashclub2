@@ -1,5 +1,5 @@
 import React from "react";
-import Fourth_data from "../Data/data4";
+import Fourth_data from "../Data/data4.js";
 import { useParams } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 

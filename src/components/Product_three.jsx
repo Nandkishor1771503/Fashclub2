@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Third_data from "../Data/data3";
+import Third_data from "../Data/data3.js";
 import { FaWhatsapp } from "react-icons/fa";
 
 
