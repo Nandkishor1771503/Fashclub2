@@ -1,5 +1,5 @@
 import React from "react";
-import Third_data from "../Data/data3";
+import Third_data from "../Data/data3.js";
 import { Link } from "react-router-dom";
 
 function Three() {

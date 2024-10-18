@@ -1,5 +1,5 @@
 import React from "react";
-import First_data from "../data/data1";
+import First_data from "../data/data1.js";
 import { Link } from "react-router-dom";
 
 function One() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Second_data from '../Data/data2'
+import Second_data from '../Data/data2.js'
 import { Link } from 'react-router-dom'
 
 function Two() {
