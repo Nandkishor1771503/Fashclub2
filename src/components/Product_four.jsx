@@ -9,7 +9,7 @@ function Product_four() {
 
   return (
     <>
-      <div className="overflow-y-hidden lg:overflow-y-visible w-full lg:w-[80%] lg:mx-auto lg:my-5">
+      <div className="overflow-y-hidden h-auto lg:overflow-y-visible w-full lg:w-[80%] lg:mx-auto lg:shadow-2xl lg:my-5">
         <div className="block lg:flex lg:items-center lg:justify-center lg:mx-auto lg:ml-[20%] w-full lg:w-[90%]  ">
           <img
             src={details.src}

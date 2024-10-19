@@ -14,7 +14,7 @@ function Display() {
       </div> */}
 
       <div
-        className="flex m-4 p-2 my-8 lg:p-4 items-center lg:justify-between gap-16 md:gap-[20%] lg:gap-[15%] lg:w-[90%]  lg:mx-auto 
+        className="flex m-4 p-2 my-8 lg:p-4 items-center lg:justify-between gap-16  md:gap-[20%] lg:gap-[15%] lg:w-[90%]  lg:mx-auto 
       "
       >
         <img
@@ -22,7 +22,7 @@ function Display() {
           alt=""
           className="w-[50%] md:w-[50%]  lg:w-[35%] m-auto mb-4 rounded-xl shadow-inner "
         />
-        <div className="text-3xl md:text-5xl text-center lg:text-7xl flex flex-col gap-0 md:gap-2 w-full ">
+        <div className="text-3xl md:text-5xl lg:text-7xl text-center  flex flex-col gap-0 md:gap-2 w-full ">
           <h2 className="font-londrina -ml-24 -rotate-6 md:mb-5 shadow-2xl rounded-xl">
             Fashion
           </h2>
