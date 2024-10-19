@@ -9,7 +9,7 @@ function Product_one() {
   const details = First_data.find((e) => e.id == id);
   return (
     <>
-      <div className="overflow-y-hidden h-auto lg:overflow-y-visible w-full lg:w-[80%] lg:mx-auto lg:shadow-2xl lg:my-5">
+      <div className="overflow-hidden h-auto lg:overflow-y-visible w-full lg:w-[80%] lg:mx-auto lg:shadow-2xl lg:my-5">
         <div className="block lg:flex lg:items-center lg:justify-center lg:mx-auto lg:ml-[20%] w-full lg:w-[90%]  ">
           <img
             src={details.src}
@@ -50,17 +50,17 @@ function Product_one() {
             </div>
           </div>
           <div className="hidden lg:block m-auto my-14 w-[50%] ">
-          <a
-            href={`https://wa.me/918143366416?text=${encodeURIComponent(
-              `name: ${details.name}\ndiscription : ${details.discription}\ncategory : ${details.category}\nitem id : ${details.id}\nprice : ${details.price}\nI want to buy this product let me know the avalibility ...`
-            )}`}
-            className="flex items-center justify-center "
-          >
-            <button className="w-full flex items-center justify-center bg-[#a67c52]  h-12 rounded-3xl text-2xl text-center gap-2">
-              <FaWhatsapp /> Buy now
-            </button>
-          </a>{" "}
-        </div>
+            <a
+              href={`https://wa.me/918143366416?text=${encodeURIComponent(
+                `name: ${details.name}\ndiscription : ${details.discription}\ncategory : ${details.category}\nitem id : ${details.id}\nprice : ${details.price}\nI want to buy this product let me know the avalibility ...`
+              )}`}
+              className="flex items-center justify-center "
+            >
+              <button className="w-full flex items-center justify-center bg-[#a67c52]  h-12 rounded-3xl text-2xl text-center gap-2">
+                <FaWhatsapp /> Buy now
+              </button>
+            </a>{" "}
+          </div>
         </div>
         <div className="absolute lg:hidden bottom-0 w-full">
           <a
