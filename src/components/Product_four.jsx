@@ -30,7 +30,7 @@ function Product_four() {
           </div>
         </div>
         <div className="w-11/12 lg:mx-auto lg:h-96 lg:relative absolute bottom-10 bg-[#eacda4] bg-opacity-75 backdrop-blur-sm shadow-2xl z-50 rounded-xl p-5 m-4  ">
-          <div className=" lg:flex items-center justify-center ml-20 gap-24">
+          <div className=" lg:flex items-center justify-center lg:ml-20 gap-24">
             <div className="">
               <h1 className="lg:text-5xl lg:my-4">{details.name}</h1>
 
