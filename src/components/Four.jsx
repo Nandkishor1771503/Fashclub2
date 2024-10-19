@@ -11,7 +11,7 @@ function Four() {
           Fourth_data.map(({ name, id, src, price, size }) => {
             return (
               <>
-                <Link to={`/one/${id}`} key={id}>
+                <Link to={`/four/${id}`} key={id}>
                   <div className="w-11/12 m-auto flex lg:block items-center justify-center gap-[2rem] space-y-4 my-4 lg:p-2 bg-orange-300 rounded-xl shadow-xl">
                     <img
                       src={src}

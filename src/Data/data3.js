@@ -14,7 +14,7 @@ const Third_data = [
         price : '₹200' ,
         src : 'https://modone.com/eng_pl_Mens-shirt-with-short-sleeves-K552-black-15611_4.jpg',
         size : 'S-L',
-        discription : "Black slim fit full hands ",
+        discription : "Stylish printed half-sleeve shirt, comfort and fashion ",
         category : "T-shirts",
         
     },
@@ -24,7 +24,7 @@ const Third_data = [
         price : '₹200' ,
         src : 'https://i.pinimg.com/originals/94/53/08/945308d4abb55c9317bda932091dfd53.jpg',
         size : 'M-2XL',
-        discription : "Black slim fit full hands ",
+        discription : "A classic shirt featuring small checkered squares.",
         category : "T-shirts",
         
     },
@@ -34,7 +34,7 @@ const Third_data = [
         price : '₹200' ,
         src : 'https://m.media-amazon.com/images/I/71wAR5-lggL._AC_UY1100_.jpg',
         size : 'S-XL',
-        discription : "Black slim fit full hands ",
+        discription : "Stylish, vibrant this classy colored shirt ",
         category : "T-shirts",
         
     },
@@ -44,7 +44,7 @@ const Third_data = [
         price : '₹200' ,
         src : 'https://i.pinimg.com/originals/be/b9/f3/beb9f39e8f0e42ef5f86f2c8c3100b61.png',
         size : 'S-M',
-        discription : "Black slim fit full hands ",
+        discription : "Classic fit, comfortable perfect for everyday wear",
         category : "T-shirts",
         
     },
