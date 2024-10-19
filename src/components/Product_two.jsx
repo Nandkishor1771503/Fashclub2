@@ -69,7 +69,7 @@ function Product_two() {
             )}`}
             className="flex items-center justify-center"
           >
-            <button className="w-full flex items-center justify-center bg-[#a67c52]  h-12 rounded-sm text-2xl text-center gap-2">
+            <button className="w-11/12 flex items-center justify-center bg-[#a67c52]  h-12 rounded-xl text-2xl text-center gap-2">
               <FaWhatsapp /> Buy now
             </button>
           </a>{" "}
