@@ -51,7 +51,7 @@ function Product_one() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:block m-auto my-14 w-[50%] ">
+          <div className="hidden  lg:block m-auto my-14 w-[50%] ">
             <a
               href={`https://wa.me/918143366416?text=${encodeURIComponent(
                 `name: ${details.name}\ndiscription : ${details.discription}\ncategory : ${details.category}\nitem id : ${details.id}\nprice : ${details.price}\nI want to buy this product let me know the avalibility ...`
@@ -71,7 +71,7 @@ function Product_one() {
             )}`}
             className="flex items-center justify-center"
           >
-            <button className="w-full flex items-center justify-center bg-[#a67c52]  h-12 rounded-sm text-2xl text-center gap-2">
+            <button className="w-11/12 flex items-center justify-center bg-[#a67c52]  h-12 rounded-xl text-2xl text-center gap-2">
               <FaWhatsapp /> Buy now
             </button>
           </a>{" "}
