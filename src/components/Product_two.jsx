@@ -49,7 +49,7 @@ function Product_two() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:block m-auto my-14 w-[50%] ">
+          <div className="hidden lg:block m-auto my-8 w-[50%] ">
           <a
             href={`https://wa.me/918143366416?text=${encodeURIComponent(
               `name: ${details.name}\ndiscription : ${details.discription}\ncategory : ${details.category}\nitem id : ${details.id}\nprice : ${details.price}\nI want to buy this product let me know the avalibility ...`
