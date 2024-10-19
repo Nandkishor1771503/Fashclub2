@@ -14,7 +14,7 @@ function Product_one() {
           <img
             src={details.src}
             alt=""
-            className="h-auto lg:h-[55%] w-full lg:w-[35%] border-[2px]"
+            className="h-screen lg:h-[55%] w-full lg:w-[35%] border-[2px]"
           />
           <div className="hidden lg:block lg:w-[50%]  ">
             <img
