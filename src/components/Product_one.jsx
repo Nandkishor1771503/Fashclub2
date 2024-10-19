@@ -10,11 +10,12 @@ function Product_one() {
   return (
     <>
       <div className="overflow-hidden  h-screen md:h-auto lg:overflow-y-visible w-full lg:w-[80%] lg:mx-auto lg:shadow-2xl lg:my-5">
+
         <div className="block lg:flex lg:items-center lg:justify-center lg:mx-auto lg:ml-[20%] w-full lg:w-[90%]  ">
           <img
             src={details.src}
             alt=""
-            className="h-screen lg:h-[55%] w-full lg:w-[35%] border-[2px]"
+            className="h-[95vh] lg:h-[55%] w-full lg:w-[35%] lg:border-[2px]"
           />
           <div className="hidden lg:block lg:w-[50%]  ">
             <img
@@ -28,11 +29,12 @@ function Product_one() {
               className="hidden lg:block lg:w-[45%] border-[2px]"
             />
           </div>
+
         </div>
         <div className="w-11/12 lg:mx-auto lg:h-96 lg:relative absolute bottom-10 bg-[#eacda4] bg-opacity-75 backdrop-blur-sm shadow-2xl z-50 rounded-xl p-5 m-4  ">
           <div className=" lg:flex items-center justify-center gap-24">
             <div className="">
-              <h1 className="text-5xl lg:my-4">{details.name}</h1>
+              <h1 className="lg:text-5xl lg:my-4">{details.name}</h1>
 
               <div className="flex my-3 gap-2 lg:gap-4 ">
                 <span className="font-medium lg:text-3xl">size:</span>
