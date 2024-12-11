@@ -1,14 +1,22 @@
 import React from "react";
 import arrow from "../images/arrow.png";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 
-// color :  #eacda4
+// color :  #eacda4 ,#a67c52BF
 const cardsstyle =
-  "w-10/12 bg-[#eacda4] mx-auto  rounded-br-[3rem] text-start shadow-lg";
+  "w-10/12 bg-[#eac591] mx-auto  rounded-br-[3rem] text-start shadow-lg";
 function Card() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:mb-20 ">
+      <h2 className="m-10 text-4xl">Our collections</h2>
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:mb-28 "
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{once:true}}
+      >
         <Link to="/one" className={cardsstyle}>
           <div>
             <img
@@ -128,7 +136,7 @@ function Card() {
             </div>
           </div>
         </Link>
-      </div>
+      </motion.div>
     </>
   );
 }

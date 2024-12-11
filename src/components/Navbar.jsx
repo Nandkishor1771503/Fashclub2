@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GiCrossMark } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
+
 //
 // https://cdn.vectorstock.com/i/1000v/06/85/fashion-silhouette-hipster-style-vector-1610685.avif
 function Navbar() {
@@ -13,6 +15,16 @@ function Navbar() {
       setHam(false);
     }
   };
+
+  const parentVariant = {
+    hidden : {opacity : 0},
+    show : {opacity : 1 ,transition :{staggerChildren  : 0.5 ,duration : 2}}
+  }
+  const chikdVariant ={
+    hidden: { opacity : 0},
+    show : { opacity : 1 }
+  }
+
   return (
     <>
       <div className="flex items-center justify-between md:justify-start md:gap-6 md:mb-3 md:ml-2">
@@ -37,23 +49,28 @@ function Navbar() {
           )}
         </div>
       </div>
-      <div className="hidden md:flex md:gap-5 lg:mx-auto lg:w-8/12 w-full items-center justify-center   p-4 lg:mb-5">
-        <Link className="w-full" to='/'>
-        <div className="shadow-2xl md:shadow-xl rounded-2xl w-full text-center p-4 md:text-lg lg:text-xl">
-          Home
-        </div>
+      <motion.div className="hidden md:flex md:gap-5 lg:mx-auto lg:w-8/12 w-full items-center justify-center   p-4 lg:mb-5" 
+        variants={parentVariant}
+        initial="hidden"
+        animate="show"
+
+      >
+        <Link className="w-full" to="/">
+          <motion.div className="shadow-2xl md:shadow-xl rounded-2xl w-full text-center p-4 md:text-lg lg:text-xl" variants={chikdVariant}>
+            Home
+          </motion.div>
         </Link>
         <Link to="/about" className="w-full">
-          <div className="shadow-2xl md:shadow-xl rounded-2xl w-full text-center p-4 md:text-lg lg:text-xl">
+          <motion.div className="shadow-2xl md:shadow-xl rounded-2xl w-full text-center p-4 md:text-lg lg:text-xl" variants={chikdVariant}>
             About{" "}
-          </div>
+          </motion.div>
         </Link>
         <Link to="/contact" className="w-full">
-          <div className="shadow-2xl md:shadow-xl rounded-2xl  text-center p-4 md:text-lg lg:text-xl">
+          <motion.div className="shadow-2xl md:shadow-xl rounded-2xl  text-center p-4 md:text-lg lg:text-xl" variants={chikdVariant}>
             Contact us
-          </div>
+          </motion.div>
         </Link>
-      </div>
+      </motion.div>
       <div
         className={` ${
           !ham ? "hidden" : "flex"
