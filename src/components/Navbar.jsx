@@ -33,7 +33,7 @@ function Navbar() {
           alt=""
           className="w-14 rounded-full m-2"
         />
-        <h1>Fash Club</h1>
+        <h1>Fashion store</h1>
 
         <div className="md:hidden">
           {!ham ? (
